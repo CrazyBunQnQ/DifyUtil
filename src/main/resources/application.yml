@@ -1,0 +1,10 @@
+# Dify API配置
+dify:
+  # API基础URL，可通过环境变量DIFY_API_BASE_URL覆盖
+  api-base-url: ${DIFY_API_BASE_URL:https://api.dify.ai/v1}
+  # API密钥，可通过环境变量DIFY_API_KEY覆盖
+  api-key: ${DIFY_API_KEY:your-api-key-here}
+
+logging:
+  level:
+    org.crazybun.difyutil: INFO
