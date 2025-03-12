@@ -1,4 +1,4 @@
-package org.crazybun.difyutil.exception;
+package com.crazybunqnq.mvn.difyutil.exception;
 
 /**
  * Dify API异常类

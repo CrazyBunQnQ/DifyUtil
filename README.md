@@ -25,7 +25,7 @@ DifyUtil 是一个用于与 [Dify](https://dify.ai) API 进行交互的 Java 工
 
 ```xml
 <dependency>
-    <groupId>org.crazybun</groupId>
+    <groupId>com.crazybunqnq.mvn</groupId>
     <artifactId>dify-util</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 </dependency>

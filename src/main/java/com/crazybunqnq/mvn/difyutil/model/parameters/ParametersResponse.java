@@ -1,4 +1,4 @@
-package org.crazybun.difyutil.model.parameters;
+package com.crazybunqnq.mvn.difyutil.model.parameters;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

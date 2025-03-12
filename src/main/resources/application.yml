@@ -7,4 +7,4 @@ dify:
 
 logging:
   level:
-    org.crazybun.difyutil: INFO
+    com.crazybunqnq.mvn.difyutil: INFO

@@ -1,4 +1,4 @@
-package org.crazybun.difyutil;
+package com.crazybunqnq.mvn.difyutil;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

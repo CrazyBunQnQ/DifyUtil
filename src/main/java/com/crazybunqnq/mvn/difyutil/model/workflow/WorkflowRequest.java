@@ -1,4 +1,4 @@
-package org.crazybun.difyutil.model.workflow;
+package com.crazybunqnq.mvn.difyutil.model.workflow;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

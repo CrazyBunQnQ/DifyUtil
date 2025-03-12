@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
     
-    <groupId>org.crazybun</groupId>
+    <groupId>com.crazybunqnq.mvn</groupId>
     <artifactId>dify-util</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>dify-util</name>

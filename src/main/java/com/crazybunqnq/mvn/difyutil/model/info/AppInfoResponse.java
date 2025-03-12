@@ -1,4 +1,4 @@
-package org.crazybun.difyutil.model.info;
+package com.crazybunqnq.mvn.difyutil.model.info;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package org.crazybun.difyutil.config;
+package com.crazybunqnq.mvn.difyutil.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
