@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <!-- 服务器认证信息 -->
+  <servers>
+    <!-- Sonatype OSSRH 服务器认证 -->
+    <server>
+      <id>ossrh</id>
+      <!-- 替换为您的 Sonatype JIRA 账号 -->
+      <username>您的Sonatype用户名</username>
+      <!-- 替换为您的 Sonatype JIRA 密码 -->
+      <password>您的Sonatype密码</password>
+    </server>
+  </servers>
+
+  <!-- GPG 配置 -->
+  <profiles>
+    <profile>
+      <id>ossrh</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <!-- 指定使用的GPG密钥ID (可选，如果有多个密钥) -->
+        <!-- <gpg.keyname>您的GPG密钥ID</gpg.keyname> -->
+        <!-- 如果您的GPG密钥有密码，可以在这里配置 -->
+        <!-- <gpg.passphrase>您的GPG密钥密码</gpg.passphrase> -->
+        <!-- 确保使用正确的GPG可执行文件路径 -->
+        <!-- <gpg.executable>gpg</gpg.executable> -->
+      </properties>
+    </profile>
+  </profiles>
+</settings>
