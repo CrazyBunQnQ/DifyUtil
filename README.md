@@ -56,12 +56,8 @@ dify:
 @Service
 public class YourService {
     
-    private final DifyClient difyClient;
-    
     @Autowired
-    public YourService(DifyClient difyClient) {
-        this.difyClient = difyClient;
-    }
+    private DifyClient difyClient;
     
     // 使用 difyClient 的方法...
 }
