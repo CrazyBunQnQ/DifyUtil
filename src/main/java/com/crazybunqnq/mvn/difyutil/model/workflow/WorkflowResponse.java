@@ -18,6 +18,18 @@ public class WorkflowResponse {
     private String task_id;
     
     /**
+     * Workflow执行ID
+     */
+    private String workflow_run_id;
+    
+    /**
+     * 执行数据
+     */
+    private WorkflowData data;
+    
+    // 以下字段保留用于兼容旧版本
+    
+    /**
      * 会话ID
      */
     private String conversation_id;

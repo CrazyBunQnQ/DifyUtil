@@ -11,7 +11,7 @@
     
     <groupId>com.crazybunqnq.mvn</groupId>
     <artifactId>dify-util</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <name>dify-util</name>
     <description>Dify API Utility for Java</description>
     <url>https://github.com/CrazyBunQnQ/dify-util</url>
@@ -129,10 +129,10 @@
                             <autoPublish>true</autoPublish>
                             <!-- <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl> -->
                             <!-- <autoReleaseAfterClose>true</autoReleaseAfterClose> -->
-                            <debug>true</debug>
+                            <!-- <debug>true</debug> -->
                         </configuration>
                     </plugin>
- 
+
                     <!--ok-->
                     <!--生成源码插件-->
                     <plugin>
